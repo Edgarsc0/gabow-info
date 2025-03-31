@@ -22,7 +22,6 @@ export default function () {
                                 <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">ESCOM</p>
                             </div>
                         </div>
-()
                         <p className="mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Estudiante de Ingeniería en Sistemas Computacionales.</p>
                     </div>
 
