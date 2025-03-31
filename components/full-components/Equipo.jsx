@@ -17,12 +17,12 @@ export default function () {
                             <Image src="/images/edgar.jpeg" className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300" alt="Grafo Conexo" width={800} height={400} />
 
                             <div className="mt-4 sm:mx-4 sm:mt-0">
-                                <h1 className="text-xl font-semibold text-gray-700 capitalize md:text-2xl dark:text-white group-hover:text-white">Sánchez Catarino Edgar</h1>
+                                <h1 className="text-xl font-semibold text-gray-700 capitalize md:text-2xl dark:text-white group-hover:text-white">Sánchez Catarino Edgar (lider)</h1>
 
                                 <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">ESCOM</p>
                             </div>
                         </div>
-
+()
                         <p className="mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Estudiante de Ingeniería en Sistemas Computacionales.</p>
                     </div>
 
