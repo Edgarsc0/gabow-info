@@ -2,6 +2,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "@radix-ui/themes/styles.css";
 import "./globals.css";
 import { Theme } from "@radix-ui/themes";
+import Navbar from "@/components/full-components/Navbar";
+import Footer from "@/components/full-components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,11 +23,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <script async src="https://www.tiktok.com/embed.js"></script>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Theme>
+          <Navbar />
           {children}
+          <Footer />
         </Theme>
       </body>
     </html>
