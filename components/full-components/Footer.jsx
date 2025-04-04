@@ -15,11 +15,11 @@ export default function () {
                     <div className="flex flex-wrap justify-center mt-6 -mx-4">
                         <a href="/" className="mx-4 text-sm text-gray-300 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400" aria-label="Reddit"> Inicio </a>
 
-                        <a href="#gabow" className="mx-4 text-sm text-gray-300 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400" aria-label="Reddit"> Sobre gabow </a>
+                        <a href="/#gabow" className="mx-4 text-sm text-gray-300 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400" aria-label="Reddit"> Sobre gabow </a>
 
-                        <a href="#" className="mx-4 text-sm text-gray-300 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400" aria-label="Reddit"> Equipo </a>
+                        <a href="/Equipo" className="mx-4 text-sm text-gray-300 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400" aria-label="Reddit"> Equipo </a>
 
-                        <a href="#" className="mx-4 text-sm text-gray-300 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400" aria-label="Reddit"> Contacto </a>
+                        <a href="/Contacto" className="mx-4 text-sm text-gray-300 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400" aria-label="Reddit"> Contacto </a>
                     </div>
 
                 </div>

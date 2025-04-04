@@ -33,17 +33,18 @@ export default function () {
             <div className="flex flex-col min-h-screen bg-black/60">
                 <div className="container flex flex-col flex-1 px-6 py-12 mx-auto">
                     <div className="flex-1 lg:flex lg:items-center lg:-mx-6">
-                        <div className="text-white lg:w-1/2 lg:mx-6">
+                        <div className="text-white lg:w-1/2 lg:mx-6 mt-20">
                             <h1 className="text-2xl font-semibold capitalize lg:text-3xl">Ponte en contacto con Gabow</h1>
 
                             <p className="max-w-xl mt-6">
                                 En gabow agradecemos tu opinion y nos gustaria saber de ti. Escribenos un mensaje llenando el formulario que a continuación se presenta.
                             </p>
-
+                        <a href="https://www.instagram.com/gaboooooooow/">
                             <button className="px-8 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
                                 Ir a nuestro instagram
                             </button>
-
+                        </a>
+                            
                             <div className="mt-6 md:mt-8">
                                 <h3 className="text-gray-300 ">Siguenos en nuestra red social principal</h3>
 
