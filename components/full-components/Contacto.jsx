@@ -18,7 +18,7 @@ export default function () {
         });
         console.log(data)
         if (data.status == 200) {
-            toast.success("¡Se ha enviado correctamente el mensaje, gracias por ponerte en contacto con nostros!", {
+            toast.success("¡Se ha enviado correctamente el mensaje gracias por ponerte en contacto con nostros!", {
                 position: "bottom-left"
             });
             formRef.current.reset();
