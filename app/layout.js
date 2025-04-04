@@ -5,6 +5,7 @@ import { Theme } from "@radix-ui/themes";
 import Navbar from "@/components/full-components/Navbar";
 import Footer from "@/components/full-components/Footer";
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -23,7 +24,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <script async src="https://www.tiktok.com/embed.js"></script>
+      <head>
+        <script async src="https://www.tiktok.com/embed.js"></script>
+        <script src="https://unpkg.com/flowbite@1.6.5/dist/flowbite.min.js"></script>
+      </head>
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
