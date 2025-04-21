@@ -16,8 +16,8 @@ export default function Navbar() {
             Gabow
             {/* Bandera al lado de Gabow */}
             <img
-              src={"argentina.png"}
-              alt="Bandera"
+              src={"mexico.png"}
+              alt="Bandera de Mexico"
               className="ml-2 w-14 h-10 rounded-lg"
             />
           </a>
@@ -80,6 +80,14 @@ export default function Navbar() {
                   className="block py-2 px-3 text-white hover:text-yellow-400 transition-all"
                 >
                   Equipo
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://gabow-app.vercel.app/"
+                  className="block py-2 px-3 text-white hover:text-yellow-400 transition-all"
+                >
+                  Gabow App
                 </a>
               </li>
             </ul>
